@@ -1,0 +1,17 @@
+:root {
+    --primary: #404955;
+    --secondary: rgb(216, 191, 216);
+    --tertiary: #855d85;
+}
+
+.app {
+    position: relative;
+}
+
+.content {
+    padding-top: 50px;
+    padding-bottom: 250px;
+}
+
+
+

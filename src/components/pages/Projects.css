@@ -1,0 +1,130 @@
+#projects {
+    min-height: 100vh;
+    background-image: url('../../assets/zion.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#projects header {
+    min-height: 75vh;
+}
+
+.projects-title {
+    font-size: 36px;
+    color: white;
+}
+
+#projects h3 {
+    margin: 0 0 20px 0;
+    font-weight: 400;
+}
+
+.projects-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    padding: 2rem;
+    min-height: 75vh;
+    background-color: rgba(64, 73, 85, .66);
+}
+
+/* .projects-grid:hover {
+    background-color: rgba(64, 73, 85, .85);
+} */
+
+.project-ind {
+    padding: 3rem;
+    display: flex;
+    align-content: center;
+    width: 60%;
+    margin: auto;
+}
+
+.project-ind:hover {
+    transform: scale(1.01);
+    box-shadow: 5px 5px rgba(95, 158, 160, 0)
+}
+
+.animation {
+    padding: 3rem;
+    animation: wipe-enter 1s;
+    display: flex;
+    align-content: center;
+    width: 60%;
+    margin: auto;
+}
+
+.project-title {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 1000;
+    color: white;
+}
+
+.project-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.project-img img {
+    max-width: 300px;
+    max-height: 225px;
+}
+
+.project-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.project-info:nth-child(even) {
+    padding-left: 2.5rem;
+}
+
+.project-info:nth-child(odd) {
+    padding-right: 2.5rem;
+}
+
+
+@keyframes wipe-enter {
+    0% { opacity: 0; }  
+    50%   { opacity: 1; }  
+}
+
+@media (max-width: 750px) { 
+    .project-ind {
+      flex-direction: column;
+      align-items: center;
+      width: auto;
+    }
+
+    .projects-grid {
+      margin: 0 auto;
+    }
+
+    .project-img img {
+      margin: 0 auto;
+      margin-bottom: 25px;
+      align-self: center;
+      min-height: 100px;
+      width: auto;
+    }
+
+    .project-info:nth-child(odd) {
+        padding: 0;
+    }
+
+    .project-info:nth-child(even) {
+        padding: 0;
+    }
+  }
+

@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: montserrat,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  cursor: pointer;
+}
+
+section {
+  min-height: 75vh;
+}
+
+footer {
+  background-image: url('../src/assets/zion.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 275px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 110px;
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+
+header h3 {
+  color: white;
+  font-size: 24px;
+}

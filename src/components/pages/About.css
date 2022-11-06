@@ -1,0 +1,63 @@
+#about {
+    max-width: 100vw;
+    background-image: url('../../assets/cliff_horizontal.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: montserrat,sans-serif;
+}
+
+#about header {
+    background-color: rgba(64, 73, 85, .66);
+    font-family: montserrat,sans-serif;
+    font-size: 18px;
+    min-height: 75vh;
+    color: white;
+    padding: 1rem;
+}
+
+.about-divider {
+    height: 1px;
+    color: white;
+    width: 50%;
+    margin: 0px
+}
+
+#about h3 {
+    color: white;
+    font-family: montserrat,sans-serif;
+    font-weight: 500;
+    font-size: 26px
+}
+
+.about-info {
+    color: white;
+    line-height: 1.5em;
+    max-width: 60%;
+    font-weight: 500;
+    padding: 1em;
+}
+
+#about a {
+    text-decoration: none;
+    color: white;
+}
+
+.resume {
+    position: relative;
+    border: 1px solid white;
+    transition: .4s ease-in;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.resume:hover {
+    box-shadow: 10px 10px 0px var(--tertiary);
+    top: 4px;
+    left: -4px;
+}
+
+.interests {
+    margin: 40px;
+}
